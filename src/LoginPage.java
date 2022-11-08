@@ -15,6 +15,10 @@ public class LoginPage implements ActionListener {
     HashMap<String, String> logininfo = new HashMap<String, String>();
     LoginPage(HashMap<String, String> loginInfoOriginal) {
     logininfo =loginInfoOriginal;
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    frame.setSize(420,420);
+    frame.setLayout(null);
+    frame.setVisible(true);
     }
 
     @Override
